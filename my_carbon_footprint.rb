@@ -6,5 +6,6 @@ act = Activity.new()
 
 me.emitted(act.activity(:fly))
 me.decrease(act.activity(:no_tv))
-puts me.carbon_neutral?
-puts me.carbon_footprint
+me.carbon_neutral?
+
+puts "My current carbon footprint is #{me.carbon_footprint}"
